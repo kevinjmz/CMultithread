@@ -1,4 +1,8 @@
 # CMultithread
+
+>>>> To run enter  < $ gcc p1.c -o p1.o -lpthread >
+                   < $ ./p1.o 100 10> (100 indices, 10 threads)>
+
 This program takes 2 parameters, indices and number of threads. 
 Creates an array of size indices and divides those indices to calculate the average with the number of threads specified.
 
